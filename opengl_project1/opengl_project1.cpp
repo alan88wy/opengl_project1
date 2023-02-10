@@ -42,7 +42,7 @@ int main()
     // Allow modern extension feature
     glewExperimental = GL_TRUE;
 
-    if (!glewInit()) {
+    if (glewInit() != GLEW_OK) {
      
         std::cout << "GLEW Initialization failed !" << std::endl;
         glfwDestroyWindow(mainWindow);

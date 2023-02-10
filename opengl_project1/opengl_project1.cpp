@@ -61,6 +61,7 @@ int main()
         glfwPollEvents();
 
         // clear window - rgb color between 0-1, if you want 112, divide 112 by 256 
+      
         glClearColor(1.0f,0.0f,0.0f,1);
         glClear(GL_COLOR_BUFFER_BIT);
 

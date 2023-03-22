@@ -76,7 +76,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)/../../External Libs/GLEW/include;$(SolutionDir)/../../External Libs/GLFW/include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)/../../External Libs/GLEW/lib/Release/x64;$(SolutionDir)/../../External Libs/GLFW/lib-vc2022;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)/../../External Libs/GLEW/lib/Release/x64;$(SolutionDir)/../../External Libs/GLFW/lib-vc2022;$(SolutionDir)/../../External Libs/GLEW/bin/Release/x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
